@@ -1,0 +1,11 @@
+.footer{
+  background: $color-2;
+  color: #f4f4f4;
+  &__txt1{
+    @extend .fz-16;
+    font-family: $font-primary-Bold;
+  }
+  &__txt2{
+    @extend .fz-16;
+  }
+}

@@ -1,0 +1,91 @@
+.header{
+  &__top{
+    padding: 5px 0;
+    @include media-breakpoint-up('m'){
+      padding: 14px 0;
+    }
+    &__title{
+      margin: 0;
+      color: $color-2;
+      line-height: 1.1;
+      margin-bottom: 1px;
+      text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+      @include media-breakpoint-up('m'){
+        line-height: 1;
+        margin-bottom: 8px !important;
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+      }
+      //@extend .fz-36;
+      @extend .fz-30;
+      @media screen and (max-width: 414px) and (min-width: 413px) {
+        font-size: 25px !important;
+      }
+      font-family: $font-primary-Black;
+
+      &--c1{
+        @include fluidx(25.2px,20px,font-size,'xs','x1');
+      }
+    }
+    &__txt{
+      color: $color-2;
+      //@extend .fz-26;
+      @extend .fz-22;
+      line-height: (36/26);
+      //text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+      text-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+    }
+    &__form{
+      @include media-breakpoint-up('m'){
+        width: 210px !important;
+        margin-bottom: 5px !important;
+      }
+    }
+    &__search{
+      @extend .fz-13;
+      padding-left: 33px !important;
+      @include media-breakpoint-up('m'){
+        height: 36px !important;
+      }
+    }
+  }
+  &__bot{
+    &__navitem{
+      //min-height: 45px;
+      min-height: 40px;
+    }
+    .uk-navbar-nav{
+      >li{
+        &.uk-active{
+          >a{
+            color: $color-2;
+          }
+        }
+        >a{
+          min-height: 45px;
+          //@extend .fz-16;
+          font-family: $font-primary-Bold;
+          color: $color-1;
+          position: relative;
+          &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            left: 15px;
+            right: calc(102% - 15px);
+            bottom: 6px;
+            height: 1px;
+            background-color: currentColor;
+            transition: .3s ease-in-out;
+            transition-property: right;
+          }
+          &:hover{
+            color: $color-2;
+            &:before{
+              right: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
