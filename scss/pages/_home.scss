@@ -2,8 +2,8 @@
   &__title{
     //@extend .fz-36;
     //@extend .fz-28;
-    @extend .fz-26;
-    margin-bottom: 10px;
+    @extend .fz-24;
+    //margin-bottom: 10px;
     @media (max-width: 320px) {
       font-size: 16px !important;
     }
@@ -15,7 +15,7 @@
     @include media-breakpoint-up('m'){
       //margin-bottom: 58px !important;
       //margin-bottom: 40px !important;
-      margin-bottom: 20px !important;
+      //margin-bottom: 20px !important;
     }
   }
   &__block01{
@@ -97,7 +97,7 @@
           }
         }
         a{
-          color: $color-2;
+          color: #000000;
           .home__block03 &{
             color: #222222;
             &:hover{
@@ -148,11 +148,11 @@
   &__block02{
     &--c1{
       padding-top: 10px;
-      padding-bottom: 10px;
+      //padding-bottom: 10px;
       @include media-breakpoint-up('m'){
         padding-top: 10px;
         //padding-bottom: 23px;
-        padding-bottom: 0px;
+        //padding-bottom: 0px;
       }
     }
     &--c2{

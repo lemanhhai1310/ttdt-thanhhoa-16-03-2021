@@ -4,7 +4,10 @@
 <!--CHỦ ĐỀ NỔI BẬT-->
 <div class="home__block02 home__block02--c1 uk-section-small">
     <div class="uk-container">
-        <div class="home__block02__box2 uk-visible@s uk-border-rounded uk-margin uk-box-shadow-small">
+        <div class="uk-hidden@s uk-padding-small fix1__tin1">
+            <div class="line-clamp-2">TIN NỔI BẬT: <span>Vì sao vaccine Covid-19 ở Việt Nam có giá 60.000 đồng một liều? Nhiều phụ nữ nước ngoài tố cáo bị quấy rối tình dục ở hồ <Tây></Tây></span></div>
+        </div>
+        <div class="home__block02__box2 uk-visible@s uk-border-rounded uk-margin-bottom uk-box-shadow-small">
             <span class="home__block02__box2__txt" hidden>TIN NỔI BẬT: <span id="typed"></span></span>
             <div class="uk-grid-10" uk-grid>
                 <div class="uk-width-auto@s">
@@ -56,7 +59,72 @@
           });
         </script>
         <h2 class="home__title uk-h2 uk-hidden uk-text-left uk-text-uppercase uk-margin">CHỦ ĐỀ NỔI BẬT</h2>
-        <div class="home__block01__slider" uk-slider="autoplay: false">
+        <div class="mb-40 uk-visible@m" uk-slider>
+
+            <div class="uk-position-relative">
+
+                <div class="uk-slider-container">
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-6@m uk-grid-small uk-grid-25-m" uk-grid>
+                        <?php
+                        $data = array(
+                            array(
+                                'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/yqdxwpjwq/2021_02_28/thumb_2.jpg',
+                                'title' => 'Tại sao đàn ông thích đeo đồng hồ?',
+                            ),
+                            array(
+                                'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/yzizh/2021_02_28/thumb.jpg',
+                                'title' => 'Đánh giá Honda CB500X 2020 - xe phượt đa dụng, giá cao',
+                            ),
+                            array(
+                                'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/lce_qjlcv/2021_02_27/rrret.jpg',
+                                'title' => 'Hà Nội đón đợt lạnh mới',
+                            ),
+                            array(
+                                'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/yqdxwpjwq/2021_02_24/pin_2_1.jpg',
+                                'title' => 'Những dấu hiệu cho biết sản phẩm trang điểm không còn dùng được',
+                            ),
+                            array(
+                                'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/liqpwivo/2021_02_28/allihead_1.jpg',
+                                'title' => 'Tìm thấy 80 đầu cá sấu trong một căn hộ ở Anh',
+                            ),
+                            array(
+                                'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/uqvpbpci/2021_02_28/58caf6ad4894bbcae285.jpg',
+                                'title' => 'Trung tâm thương mại tại TP.HCM nhộn nhịp ngày cuối tuần',
+                            ),
+                            array(
+                                'src' => 'https://znews-photo.zadn.vn/w360/Uploaded/neg_efjpyye/2020_02_23/Cuoc_doi_va_su_nghiep_Warren_Buffett_11.jpg',
+                                'title' => 'Sai lầm gây thiệt hại 10 tỷ USD của Warren Buffett',
+                            ),
+                        );
+                        foreach ($data as $k => $v): ?>
+                        <li>
+                            <div class="uk-cover-container mb-7">
+                                <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                <canvas width="550" height="310"></canvas>
+                            </div>
+                            <h5 class="uk-h5 line-clamp-2 uk-margin-remove fix1__box1__title"><a href=""><?= $v['title'] ?></a></h5>
+                        </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+
+                <div class="uk-hidden@s uk-light">
+                    <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+                <div class="uk-visible@s">
+                    <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+            </div>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden"></ul>
+
+        </div>
+        <!--
+        <div class="home__block01__slider uk-hidden" uk-slider="autoplay: false">
             <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
 
                 <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-child-width-1-6@l uk-grid-small uk-grid-24-m" uk-grid>
@@ -117,12 +185,313 @@
             <ul class="home__block01__slider__dot home__block01__slider__dot--c1 uk-slider-nav uk-dotnav uk-flex-center uk-margin-small-top"></ul>
 
         </div>
+        -->
+        <div class="uk-hidden@m">
+            <div class="uk-child-width-1-1 uk-grid-small uk-grid-25-m" uk-grid>
+                <?php
+                $data = array(
+                    array(
+                        'src' => 'https://znews-photo.zadn.vn/w960/Uploaded/mdf_reovdl/2021_02_28/lay_mau.jpg',
+                        'title' => 'Thêm 16 ca Covid-19, 4 người nhập cảnh',
+                    ),
+                    array(
+                        'src' => 'https://znews-photo.zadn.vn/w480/Uploaded/zdhwqwqd2/2021_02_18/2021_02_08T121306Z_1530549362_RC2COL9QTPB6_RTRMADP_3_HEALTH_CORONAVIRUS_CHINA.JPG',
+                        'title' => 'Tình tiết mới về bệnh nhân số 0 ở Vũ Hán',
+                    ),
+                    array(
+                        'src' => 'https://znews-photo.zadn.vn/w480/Uploaded/cqjlqcqjx/2021_02_28/benhvien13__1.jpg',
+                        'title' => 'Giải thể Bệnh viện dã chiến số 1 ở Hải Dương',
+                    ),
+                    array(
+                        'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/rohunuk/2021_02_28/Lay_may_tai_TSN_10.jpg',
+                        'title' => 'Thêm ca mắc Covid-19, Đồng Tháp họp khẩn',
+                    ),
+                    array(
+                        'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/natmzz/2021_02_28/2021_02_28T124055Z_1352417996_UP1EH2S0Z87S4_RTRMADP_3_SOCCER_ENGLAND_LEI_ARS_REPORT.JPG',
+                        'title' => 'Leicester 1-3 Arsenal: Pepe tỏa sáng',
+                    ),
+
+                );
+                foreach ($data as $k => $v): ?>
+                    <div>
+                        <div class="uk-card uk-position-relative uk-card-default home__block01__box uk-border-rounded uk-overflow-hidden">
+                            <div class="uk-cover-container">
+                                <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                <canvas width="327" height="237"></canvas>
+                            </div>
+                            <div class="uk-card-body uk-padding-small home__block01__box__body">
+                                <h4 class="uk-h4 uk-text-uppercase home__block01__box__title"><a href=""><?= $v['title'] ?></a></h4>
+                                <div class="uk-grid-5" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                            <canvas width="24" height="24"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <span class="home__block01__box__txt"><a href="">Quy định xử phạt vi phạm giao thông</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-position-bottom home__block02__box1__bg2"><img src="images/boxshadow2.png" alt=""></div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <div class="uk-card fix1__card uk-margin uk-visible@m" uk-slider uk-toggle="cls: uk-margin-medium; mode: media; media: @l">
+            <div class="uk-padding-small fix1__card__header uk-padding-remove-left uk-padding-remove-right">
+                <div class="uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <h2 class="home__title uk-h2 uk-text-left uk-text-uppercase uk-margin-remove">TÌNH HUỐNG pháp luật NỔI BẬT</h2>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a class="" href="#" uk-icon="icon: chevron-left; ratio: 1" uk-slider-item="previous"></a>
+                        <a class="" href="#" uk-icon="icon: chevron-right; ratio: 1" uk-slider-item="next"></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+                <div class="uk-position-relative">
+
+                    <div class="uk-slider-container uk-light">
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small uk-grid-25-m" uk-grid>
+                            <?php
+                            $data = array(
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w960/Uploaded/mdf_reovdl/2021_02_28/lay_mau.jpg',
+                                    'title' => 'Thêm 16 ca Covid-19, 4 người nhập cảnh',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w480/Uploaded/zdhwqwqd2/2021_02_18/2021_02_08T121306Z_1530549362_RC2COL9QTPB6_RTRMADP_3_HEALTH_CORONAVIRUS_CHINA.JPG',
+                                    'title' => 'Tình tiết mới về bệnh nhân số 0 ở Vũ Hán',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w480/Uploaded/cqjlqcqjx/2021_02_28/benhvien13__1.jpg',
+                                    'title' => 'Giải thể Bệnh viện dã chiến số 1 ở Hải Dương',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/rohunuk/2021_02_28/Lay_may_tai_TSN_10.jpg',
+                                    'title' => 'Thêm ca mắc Covid-19, Đồng Tháp họp khẩn',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/natmzz/2021_02_28/2021_02_28T124055Z_1352417996_UP1EH2S0Z87S4_RTRMADP_3_SOCCER_ENGLAND_LEI_ARS_REPORT.JPG',
+                                    'title' => 'Leicester 1-3 Arsenal: Pepe tỏa sáng',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/kbd_ivdb/2021_02_28/thi_the.jpg',
+                                    'title' => 'Thi thể nam thanh niên nổi trên sông Sài Gòn',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/aohunkx/2020_12_25/8d8d1318940e6850311f.jpg',
+                                    'title' => 'Giá vàng còn giảm sâu vào tuần tới?',
+                                ),
+                            );
+                            foreach ($data as $k => $v): ?>
+                                <li>
+                                    <div class="uk-card uk-position-relative uk-card-default home__block01__box uk-border-rounded uk-overflow-hidden">
+                                        <div class="uk-cover-container">
+                                            <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                            <canvas width="327" height="237"></canvas>
+                                        </div>
+                                        <div class="uk-card-body uk-padding-small home__block01__box__body">
+                                            <h4 class="uk-h4 uk-text-uppercase home__block01__box__title"><a href=""><?= $v['title'] ?></a></h4>
+                                            <div class="uk-grid-5" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <div class="uk-cover-container uk-border-circle">
+                                                        <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                                        <canvas width="24" height="24"></canvas>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <span class="home__block01__box__txt"><a href="">Quy định xử phạt vi phạm giao thông</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-position-bottom home__block02__box1__bg2"><img src="images/boxshadow2.png" alt=""></div>
+                                    </div>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+
+                    <!--
+                    <div class="uk-hidden@s uk-light">
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                    -->
+
+                </div>
+
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden"></ul>
+
+            </div>
+        </div>
+        <div class="uk-card fix1__card uk-margin" uk-slider uk-toggle="cls: uk-margin-medium; mode: media; media: @l">
+            <div class="uk-padding-small fix1__card__header uk-padding-remove-left uk-padding-remove-right">
+                <div class="uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <h2 class="home__title uk-h2 uk-text-left uk-text-uppercase uk-margin-remove">có thể bạn quan tâm</h2>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a class="" href="#" uk-icon="icon: chevron-left; ratio: 1" uk-slider-item="previous"></a>
+                        <a class="" href="#" uk-icon="icon: chevron-right; ratio: 1" uk-slider-item="next"></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+                <div class="uk-position-relative">
+
+                    <div class="uk-slider-container uk-light">
+                        <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small uk-grid-25-m" uk-grid>
+                            <?php
+                            $data = array(
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w960/Uploaded/mdf_reovdl/2021_02_28/lay_mau.jpg',
+                                    'title' => 'Thêm 16 ca Covid-19, 4 người nhập cảnh',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w480/Uploaded/zdhwqwqd2/2021_02_18/2021_02_08T121306Z_1530549362_RC2COL9QTPB6_RTRMADP_3_HEALTH_CORONAVIRUS_CHINA.JPG',
+                                    'title' => 'Tình tiết mới về bệnh nhân số 0 ở Vũ Hán',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w480/Uploaded/cqjlqcqjx/2021_02_28/benhvien13__1.jpg',
+                                    'title' => 'Giải thể Bệnh viện dã chiến số 1 ở Hải Dương',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/rohunuk/2021_02_28/Lay_may_tai_TSN_10.jpg',
+                                    'title' => 'Thêm ca mắc Covid-19, Đồng Tháp họp khẩn',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/natmzz/2021_02_28/2021_02_28T124055Z_1352417996_UP1EH2S0Z87S4_RTRMADP_3_SOCCER_ENGLAND_LEI_ARS_REPORT.JPG',
+                                    'title' => 'Leicester 1-3 Arsenal: Pepe tỏa sáng',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/kbd_ivdb/2021_02_28/thi_the.jpg',
+                                    'title' => 'Thi thể nam thanh niên nổi trên sông Sài Gòn',
+                                ),
+                                array(
+                                    'src' => 'https://znews-photo.zadn.vn/w210/Uploaded/aohunkx/2020_12_25/8d8d1318940e6850311f.jpg',
+                                    'title' => 'Giá vàng còn giảm sâu vào tuần tới?',
+                                ),
+                            );
+                            foreach ($data as $k => $v): ?>
+                                <li>
+                                    <div class="uk-card uk-position-relative uk-card-default home__block01__box uk-border-rounded uk-overflow-hidden">
+                                        <div class="uk-cover-container">
+                                            <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                            <canvas width="327" height="237"></canvas>
+                                        </div>
+                                        <div class="uk-card-body uk-padding-small home__block01__box__body">
+                                            <h4 class="uk-h4 uk-text-uppercase home__block01__box__title"><a href=""><?= $v['title'] ?></a></h4>
+                                            <div class="uk-grid-5" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <div class="uk-cover-container uk-border-circle">
+                                                        <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                                        <canvas width="24" height="24"></canvas>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <span class="home__block01__box__txt"><a href="">Quy định xử phạt vi phạm giao thông</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-position-bottom home__block02__box1__bg2"><img src="images/boxshadow2.png" alt=""></div>
+                                    </div>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+
+                    <!--
+                    <div class="uk-hidden@s uk-light">
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                    -->
+
+                </div>
+
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden"></ul>
+
+            </div>
+        </div>
+        <div class="uk-card fix1__card uk-margin" uk-slider uk-toggle="cls: uk-margin-medium; mode: media; media: @l">
+            <div class="uk-padding-small fix1__card__header uk-padding-remove-left uk-padding-remove-right">
+                <div class="uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <h2 class="home__title uk-h2 uk-text-left uk-text-uppercase uk-margin-remove">văn bản - tài liệu</h2>
+                    </div>
+                    <div class="uk-width-auto">
+                        <a class="" href="#" uk-icon="icon: chevron-left; ratio: 1" uk-slider-item="previous"></a>
+                        <a class="" href="#" uk-icon="icon: chevron-right; ratio: 1" uk-slider-item="next"></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+                <div class="uk-position-relative">
+
+                    <div class="uk-slider-container uk-light">
+                        <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small uk-grid-25-m" uk-grid>
+                            <?php for ($i=0;$i<=10;$i++): ?>
+                                <li>
+                                    <div class="uk-position-relative">
+                                        <div class="uk-card uk-position-relative uk-card-default home__block01__box home__block01__box--c1 uk-border-rounded uk-overflow-hidden">
+                                            <div class="uk-card-body uk-padding-small home__block01__box__body home__block01__box__body--c1">
+                                                <h4 class="uk-h4 uk-margin-small uk-text-uppercase home__block01__box__title"><a href="">Nghị định quy định niên hạn sử dụng đối với xe ô tô chở hàng và xe ô tô chở người</a></h4>
+                                                <div class="uk-margin-small">
+                                                    <div class="home__block01__box__txt1">Số hiệu: 95/2009/NĐ-CP</div>
+                                                    <div><span class="home__block01__box__txt home__block01__box__txt--c1">20-12-2009</span></div>
+                                                </div>
+                                                <div><span class="home__block01__box__txt"><a href="">Văn bản quy phạm pháp luật</a></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-position-bottom home__block02__box1__bg3"><img src="images/boxshadow3.png" alt=""></div>
+                                    </div>
+                                </li>
+                            <?php endfor; ?>
+                        </ul>
+                    </div>
+
+                    <!--
+                    <div class="uk-hidden@s uk-light">
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                    -->
+
+                </div>
+
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden"></ul>
+
+            </div>
+        </div>
+
     </div>
 </div>
 <!--/CHỦ ĐỀ NỔI BẬT-->
 
 <!--TÌNH HUỐNG NỔI BẬT-->
-<div class="home__block01 uk-section-small uk-background-muted">
+<div class="uk-hidden home__block01 uk-section-small uk-background-muted">
     <div class="uk-container home__block01__container">
         <h2 class="home__title uk-h2 uk-text-center uk-text-uppercase uk-margin">TÌNH HUỐNG pháp luật NỔI BẬT</h2>
         <div class="home__block01__slider" uk-slider="autoplay: false">
@@ -202,7 +571,7 @@
 <!--/TÌNH HUỐNG NỔI BẬT-->
 
 <!--VĂN BẢN TÀI LIỆU-->
-<div class="home__block02 home__block02--c2 uk-section-small">
+<div class="uk-hidden home__block02 home__block02--c2 uk-section-small">
     <div class="uk-container">
         <h2 class="home__title uk-h2 uk-text-center uk-text-uppercase uk-margin">VĂN BẢN - TÀI LIỆU</h2>
         <div class="home__block01__slider" uk-slider="autoplay: true">
