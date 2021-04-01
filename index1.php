@@ -256,7 +256,7 @@
 
                     <div class="uk-position-relative">
 
-                        <div class="uk-slider-container uk-light">
+                        <div class="uk-slider-container-offset uk-light">
                             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small uk-grid-25-m" uk-grid>
                                 <?php
                                 $data = array(
@@ -351,7 +351,7 @@
 
                     <div class="uk-position-relative">
 
-                        <div class="uk-slider-container uk-light">
+                        <div class="uk-slider-container-offset uk-light">
                             <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small uk-grid-25-m" uk-grid>
                                 <?php
                                 $data = array(
@@ -446,7 +446,7 @@
 
                     <div class="uk-position-relative">
 
-                        <div class="uk-slider-container uk-light">
+                        <div class="uk-slider-container-offset uk-light">
                             <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small uk-grid-25-m" uk-grid>
                                 <?php for ($i=0;$i<=10;$i++): ?>
                                     <li>

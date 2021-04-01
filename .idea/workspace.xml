@@ -11250,7 +11250,21 @@
       <change beforePath="$PROJECT_DIR$/../bro6/template-parts/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bro6/template-parts/layouts/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bro6/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bro6/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_fix1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_fix1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index1.php" beforeDir="false" afterPath="$PROJECT_DIR$/index1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/base/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/themes/_admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/themes/_admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/themes/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/themes/_theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/vendors/_bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/vendors/_bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/vendors/_jquery-ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/vendors/_jquery-ui.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vieclam123/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../vieclam123/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vieclam123/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vieclam123/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vieclam123/.idea/vcs.xml" afterDir="false" />
@@ -11993,7 +12007,9 @@
       <workItem from="1617183024483" duration="40000" />
       <workItem from="1617186811880" duration="59000" />
       <workItem from="1617190536069" duration="5969000" />
-      <workItem from="1617204956356" duration="1605000" />
+      <workItem from="1617204956356" duration="2363000" />
+      <workItem from="1617253727250" duration="599000" />
+      <workItem from="1617283220022" duration="317000" />
     </task>
     <servers />
   </component>
